@@ -31,13 +31,14 @@ landslide events, plus a machine learning model predicting fatal outcomes.
 ## 📂 Project Structure
 global-landslide-analytics/
 ├── data/
-│ ├── landslide.csv # Raw NASA landslide dataset
-│ └── landslide_cleaned.csv # Cleaned dataset (output of analysis)
+│   ├── landslide.csv
+│   └── landslide_cleaned.csv
 ├── notebooks/
-│ ├── analysis_clean.py # Cleaned EDA script (final version)
-│ ├── predictive_model_clean.py # Cleaned modeling script (final version)
-│ ├── dashboard.py # Streamlit interactive dashboard
-│ └── landslide_map.html # Exported interactive Folium map
-├── outputs/ # Generated charts (see below)
+│   ├── analysis_clean.py
+│   ├── predictive_model_clean.py
+│   ├── dashboard.py
+│   └── landslide_map.html
+├── outputs/
 ├── requirements.txt
 └── README.md
+```
