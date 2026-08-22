@@ -27,8 +27,9 @@ landslide events, plus a machine learning model predicting fatal outcomes.
 - **Version Control:** Git, GitHub
 
 ---
-
 ## 📂 Project Structure
+
+```
 global-landslide-analytics/
 ├── data/
 │   ├── landslide.csv
@@ -42,3 +43,4 @@ global-landslide-analytics/
 ├── requirements.txt
 └── README.md
 ```
+
